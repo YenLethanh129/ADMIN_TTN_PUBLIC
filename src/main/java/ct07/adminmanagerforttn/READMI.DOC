@@ -1,0 +1,37 @@
+ADMIN MANAGER FOR TTN 
+
+TÁC GIẢ:
+    CT07N0161 - VÕ THỊ BÍCH TUYỀN 
+    CT07N0162 - LÊ THANH YÊN
+NGÔN NGỮ: 
+    JAVA
+MỤC ĐÍCH CỦA APP:
+    - Được viết ra nhằm để cho admin của 1 app mobile Tìm Trọ Nhanh (TTN của môn moblie)
+    - Quản lý các bài post do người dùng tải lên, quản lý hình ảnh, trạng thái được duyệt hay không
+        thống kê số lượng bài post được hiển thị, đang chờ duyệt và bị cấm
+    - Quản lý người dùng nếu có số lần vi phạm phạm vi quá lần sẽ bị cấm
+CẤU TRÚC CỦA APP    
+    - Sử dụng mô hình MVC để viết app
+    - Màn hình
+        + Màn hình đăng nhập của admin  
+        + Màn hình quản lý chia ra làm 2 gồm 3 phần
+            * Doashbord thống kê số liệu
+            * Quản lý bài viết
+            * Quản lý người dùng
+    - Cơ sở dữ liệu: API - phpMyAdmin
+
+- src
+  - main
+    - java
+      - com
+        - yourcompany
+          - yourproject
+            - model
+              - UserModel.java
+              - DashboardModel.java
+            - view
+              - LoginForm.java
+              - DashboardForm.java
+            - controller
+              - LoginController.java
+              - DashboardController.java
